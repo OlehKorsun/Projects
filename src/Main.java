@@ -6,5 +6,6 @@ public class Main{
         cont.fun(5, 10, 25.5);
         cont2.fun(20, 30, 40.5);
         System.out.println(cont.weight);
+        
     }
 }
