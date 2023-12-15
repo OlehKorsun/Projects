@@ -24,7 +24,6 @@ public class Child {
             if(children[i].name.equals(name))
                 return children[i];
         }
-
         return null;
     }
 
