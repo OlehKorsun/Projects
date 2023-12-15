@@ -15,9 +15,6 @@ public class Main {
             System.out.println(Arrays.toString(tabl[i]));
         }
     }
-
     public static void selSort(int[] tabl){
-
     }
-
 }
