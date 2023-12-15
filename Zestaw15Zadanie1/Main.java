@@ -25,7 +25,6 @@ public class Main {
         Child child1;
         Child child2;
 
-
         while(!(name1.startsWith("q"))){
 
             child1 = Child.getChildByName(tabl, name1);
