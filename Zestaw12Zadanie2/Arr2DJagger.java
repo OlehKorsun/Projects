@@ -18,7 +18,6 @@ public class Arr2DJagger {
                 il++;
             }
             tabl2[i] = sum/il;
-
         }
         return tabl2;
     }
