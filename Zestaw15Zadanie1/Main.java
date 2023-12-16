@@ -34,9 +34,7 @@ public class Main {
                 continue;
 
             child1.givesCandyTo(child2);
-
         }
         return;
-
     }
 }
