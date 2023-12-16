@@ -1,6 +1,5 @@
 package Zestaw15Zadanie1;
 
-
 public class Child {
     private String name;
     private int numCandies;
@@ -32,7 +31,9 @@ public class Child {
         for(int i = 0; i<children.length; i++){
             System.out.print("(" + children[i].name + ", " + children[i].numCandies + " candies)");
         }
+        
         System.out.println(" ]");
+        
     }
 
 }
