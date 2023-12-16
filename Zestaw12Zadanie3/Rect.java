@@ -16,6 +16,7 @@ public class Rect {
         int xmin = arr[0].x;
         int ymax = arr[0].y;
         int ymin = arr[0].y;
+        
         for(int i = 1; i< arr.length; i++){
             if(arr[i].x>xmax)
                 xmax = arr[i].x;
