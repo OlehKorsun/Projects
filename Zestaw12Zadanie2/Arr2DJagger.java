@@ -11,8 +11,8 @@ public class Arr2DJagger {
     public static double[] getAverages(int[][] tabl){
         double[] tabl2 = new double[tabl.length];
         for(int i = 0; i<tabl.length; i++){
-            int sum = 0;
-            int il = 0;
+            double sum = 0;
+            double il = 0;
             for(int j = 0; j<tabl[i].length; j++){
                 sum+=tabl[i][j];
                 il++;
