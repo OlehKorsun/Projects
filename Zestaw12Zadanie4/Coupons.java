@@ -17,23 +17,25 @@ public class Coupons {
 
     static int boxesBought(int coupons){
         int liczbaPudelek = 0;
-        boolean bool = true;
         int[] kupony = new int[coupons];
 
-            while (bool) {
+            while (czyWszystkieKupony(kupony)) {
                 int rand = (int) (Math.random() * coupons);
                 kupony[rand] = 1;
-                bool = false;
                 liczbaPudelek++;
-                for (int coup : kupony) {
-                    if (coup == 0) {
-                        bool = true;
-                    }
-                }
+
             }
             return liczbaPudelek;
         }
-        
+
+    public static boolean czyWszystkieKupony(int[] tabl){
+            for(int elem: tabl){
+                if(elem==0)
+                    return true;
+            }
+            return false;
+        }
+
     static double harmo(int n){
         double sum = 0;
         for(int i = 1; i<=n; ++i){
@@ -41,5 +43,4 @@ public class Coupons {
         }
         return sum*n;
     }
-
 }
