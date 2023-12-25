@@ -8,7 +8,7 @@ public class Main {
         System.out.println("3 childrens will be created");
         Child[] tabl = new Child[3];
 
-        for(int i = 0; i<3; i++){
+        for(int i = 0; i<tabl.length; i++){
             System.out.print("Name of the child no " + i + ": " );
             Scanner scan = new Scanner(System.in);
             String a = scan.nextLine();
@@ -20,8 +20,10 @@ public class Main {
 
         System.out.print("Enter names of 'giver' and 'receiver': ");
         Scanner scan = new Scanner(System.in);
+        
         String name1 = scan.next();
         String name2 = scan.next();
+        
         Child child1;
         Child child2;
 
