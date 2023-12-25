@@ -13,30 +13,38 @@ public class Main {
         for (Square s : sqs)
             System.out.print(s + " ");
         System.out.print("\nAreas: ");
+        
         for (Square s : sqs)
             System.out.print(s.getArea() + " ");
         System.out.print("\nPerimeters: ");
+        
         for (Square s : sqs)
             System.out.print(s.getPerimeter() + " ");
         System.out.print("\nInscribed circles: ");
+        
         for (Square s : sqs)
             System.out.print(s.getInscribedCircle() + " ");
         System.out.print("\nCircumscribed circles: ");
+        
         for (Square s : sqs)
             System.out.print(s.getCircumscribedCircle() + " ");
 
         System.out.println("\n\n...and now circles from squares...");
         Circle[] circles = Square.getCircles(sqs);
         System.out.print("Circles: ");
+        
         for (Circle c : circles)
             System.out.print(c + " ");
         System.out.print("\nAreas: ");
+        
         for (Circle c : circles)
             System.out.print(c.getArea() + " ");
         System.out.print("\nInscribed squares: ");
+        
         for (Circle c : circles)
             System.out.print(c.getInscribedSquare() + " ");
         System.out.print("\nCircumscribed squares: ");
+        
         for (Circle c : circles)
             System.out.print(c.getCircumscribedSquare() + " ");
 
