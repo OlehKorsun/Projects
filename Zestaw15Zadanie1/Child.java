@@ -16,6 +16,7 @@ public class Child {
         }
         this.numCandies--;
         other.numCandies++;
+        
     }
 
     static Child getChildByName(Child[] children, String name){
@@ -23,6 +24,7 @@ public class Child {
             if(children[i].name.equals(name))
                 return children[i];
         }
+        
         return null;
     }
 
