@@ -1,6 +1,8 @@
 package Zestaw21TomaszewskiZadanie3;
 
-public class Owoc {
+public 
+    class Owoc {
+        
     private String nazwa;
     private double masa;
     public Owoc(){}
