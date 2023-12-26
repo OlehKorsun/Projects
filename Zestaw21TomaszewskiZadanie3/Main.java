@@ -1,8 +1,10 @@
 package Zestaw21TomaszewskiZadanie3;
 import java.util.Arrays;
 
-public class Main {
+public class
+    Main {
     public static void main(String[] args) {
+        
         Owoc[] tabl = new Owoc[100];
         double ogolnaMasa = 0;
         int jablko = 0;
