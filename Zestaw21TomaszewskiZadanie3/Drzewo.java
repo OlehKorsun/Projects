@@ -4,12 +4,12 @@ public class Drzewo {
     public static Owoc zerwijOwoc(){
         int a = (int)(Math.random()*3);
         Owoc owoc;
-        if(a==0)
-            owoc = new Jablko();
-        else if(a==1)
-            owoc = new Pomarancza();
-        else
-            owoc = new Gruszka();
+        
+        switch(a){
+            case 0 -> owoc = new Jablko();
+            case 1 -> owoc = new Pomarancza();
+            case 2 -> owoc = new Gruszka();
+        }
         return owoc;
     }
 }
