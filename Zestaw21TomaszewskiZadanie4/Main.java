@@ -8,7 +8,7 @@ public class Main {
         RachunekBankowy rach1 = new RachunekBankowy(os1, 100);
         RachunekBankowy rach2 = new RachunekBankowy(os2, 500);
 
-        rach1.przelew(rach2, 100);
+        rach1.przelew(rach2, 50);
         rach1.wplata(200);
         System.out.println(rach1);
         System.out.println(rach2);
