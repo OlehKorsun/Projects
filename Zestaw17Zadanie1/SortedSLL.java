@@ -1,9 +1,9 @@
 package Zestaw17Zadanie1;
 
 public class SortedSLL {
-    Node head;
+    Node head;   // referencja do pierwszego elementu
     public SortedSLL(){
-        this.head = null;
+        this.head = null;    // domyslnie jest null
     }
 
     public void addSorted(int a){
