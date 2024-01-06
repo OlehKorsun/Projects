@@ -7,6 +7,7 @@ public class Main {
         list.addSorted(1);
         list.addSorted(6);
         list.addSorted(3);
+        list.addSorted(10);
         list.show();
     }
 }
