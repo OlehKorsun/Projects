@@ -7,6 +7,7 @@ public class Main {
         Osoba os3 = new Osoba("Mateusz", "Wasita", "555-555-555");
         Smartfon smartfon1 = new Smartfon(null, "blue", "Martin", "Kowalski", "777-777-777");
         Smartfon smartfon2 = new Smartfon(null, "blue", "Jakub", "Zaufert", "666-666-666");
+        Smartfon smartfon3 = new Smartfon(null, "grew", "Marta", "Grecka", "555-555-555");
         Komorka komorka = new Komorka();
     }
 }
