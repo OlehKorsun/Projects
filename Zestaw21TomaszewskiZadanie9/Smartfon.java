@@ -19,6 +19,7 @@ public class Smartfon extends Komorka {
             i++;
         }
     }
+    
     public void wyswietHistoriePolaczen(){
         for(int j = 0; j<i; j++)
             System.out.println(znajomi[j].imie + " " + znajomi[j].nazwisko + " " + znajomi[j].numer);
