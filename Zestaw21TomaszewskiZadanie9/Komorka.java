@@ -9,6 +9,6 @@ public class Komorka extends Telefon{
 
     public void wyswietHistoriePolaczen(){
         for(String el: tabl)
-            System.out.print("[" + el + "]  ");
+            System.out.print("[ " + el + " ]  ");
     }
 }
