@@ -1,6 +1,7 @@
 package Zestaw21TomaszewskiZadanie9;
 
 public class Telefon {
+    
     String interfejsKomunikacyjny;
     String color;
     public Telefon(){}
