@@ -9,5 +9,6 @@ public class Main {
         Smartfon smartfon2 = new Smartfon(null, "blue", "Jakub", "Zaufert", "666-666-666");
         Smartfon smartfon3 = new Smartfon(null, "grew", "Marta", "Grecka", "555-555-555");
         Komorka komorka = new Komorka();
+        
     }
 }
