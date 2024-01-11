@@ -5,7 +5,9 @@ public class Osoba {
     String nazwisko;
     String numer;
     
-    public Osoba(){}
+    public Osoba(){
+        
+    }
     
     public Osoba(String imie, String nazwisko, String numer){
         this.imie = imie;
