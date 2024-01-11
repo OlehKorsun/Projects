@@ -5,7 +5,9 @@ import java.util.Arrays;
 public class Smartfon extends Komorka {
     Osoba[] znajomi = new Osoba[10];
     int i = 0;
-    public Smartfon(){}
+    public Smartfon(){
+        
+    }
     public Smartfon(String interfejs, String color, String name, String nazwisko, String numer){
         super(interfejs, color);
         Osoba osoba = new Osoba(name, nazwisko, numer);
